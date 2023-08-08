@@ -28,4 +28,39 @@
               d="M5 6.44452C4.03804 6.44452 3.25973 5.70036 3.25973 4.78061C3.25973 3.86295 4.03804 3.11879 5 3.11879C5.95977 3.11879 6.73809 3.86295 6.73809 4.78061C6.73809 5.70036 5.95977 6.44452 5 6.44452ZM5 0C2.23874 0 0 2.14051 0 4.78061C0 6.70791 2.6585 12.471 4.09926 15.4497C4.45343 16.1834 5.54438 16.1834 5.90074 15.4497C7.33931 12.471 10 6.70791 10 4.78061C10 2.14051 7.76126 0 5 0Z"
               fill="white"/>
     </symbol>
+
+    <symbol id="circle-L" viewBox="0 0 32 32">
+        <path d="M16 5.51392C21.7915 5.51392 26.4861 10.2085 26.4861 16C26.4861 21.7915 21.7915 26.4861 16 26.4861C10.2085 26.4861 5.51389 21.7915 5.51389 16C5.51389 10.2085 10.2085 5.51392 16 5.51392Z"
+              stroke="black" stroke-width="12.5833" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M18.4223 11.8055L24.4413 22.2287" stroke="black" stroke-width="12.5833" stroke-linecap="round"
+              stroke-linejoin="round"/>
+        <path d="M13.5777 11.8055H25.6158" stroke="black" stroke-width="12.5833" stroke-linecap="round"
+              stroke-linejoin="round"/>
+        <path d="M11.1554 16L17.1744 5.57678" stroke="black" stroke-width="12.5833" stroke-linecap="round"
+              stroke-linejoin="round"/>
+        <path d="M13.5777 20.1944L7.55869 9.77124" stroke="black" stroke-width="12.5833" stroke-linecap="round"
+              stroke-linejoin="round"/>
+        <path d="M18.4223 20.1945H6.38423" stroke="black" stroke-width="12.5833" stroke-linecap="round"
+              stroke-linejoin="round"/>
+        <path d="M20.8446 16L14.8256 26.4232" stroke="black" stroke-width="12.5833" stroke-linecap="round"
+              stroke-linejoin="round"/>
+    </symbol>
+
+    <symbol id="circle-S" viewBox="0 0 25 25">
+        <path style="fill:none;stroke-width:12.5833;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;"
+              d="M 16 5.515 C 21.79 5.515 26.485 10.21 26.485 16 C 26.485 21.79 21.79 26.485 16 26.485 C 10.21 26.485 5.515 21.79 5.515 16 C 5.515 10.21 10.21 5.515 16 5.515 Z M 16 5.515 "
+              transform="matrix(0.78125,0,0,0.78125,0,0)"/>
+        <path style="fill:none;stroke-width:12.5833;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;"
+              d="M 18.42 11.805 L 24.44 22.23 " transform="matrix(0.78125,0,0,0.78125,0,0)"/>
+        <path style="fill:none;stroke-width:12.5833;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;"
+              d="M 13.58 11.805 L 25.615 11.805 " transform="matrix(0.78125,0,0,0.78125,0,0)"/>
+        <path style="fill:none;stroke-width:12.5833;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;"
+              d="M 11.155 16 L 17.175 5.575 " transform="matrix(0.78125,0,0,0.78125,0,0)"/>
+        <path style="fill:none;stroke-width:12.5833;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;"
+              d="M 13.58 20.195 L 7.56 9.77 " transform="matrix(0.78125,0,0,0.78125,0,0)"/>
+        <path style="fill:none;stroke-width:12.5833;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;"
+              d="M 18.42 20.195 L 6.385 20.195 " transform="matrix(0.78125,0,0,0.78125,0,0)"/>
+        <path style="fill:none;stroke-width:12.5833;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;"
+              d="M 20.845 16 L 14.825 26.425 " transform="matrix(0.78125,0,0,0.78125,0,0)"/>
+    </symbol>
 </svg>
