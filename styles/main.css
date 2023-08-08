@@ -304,7 +304,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     font-size: 11px;
 }
 
-.card__content button, .blackbox__content button {
+.card__content button, .blackbox__content button, .contacts__content button {
     display: block;
     width: 117px;
     margin: 10px 0;
@@ -486,6 +486,31 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     padding-bottom: 100px;
 }
 
+/*contacts section*/
+.contacts__content {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.contacts__content h2 {
+    padding-top: 50px;
+    color: var(--white);
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contacts__content p {
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contacts__content button {
+    margin: 5% auto 10%;
+}
+
 @media screen and (min-width: 576px) {
     .container {
         max-width: 576px;
@@ -515,6 +540,10 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
     .clients__content {
         max-width: 576px;
+    }
+
+    .contacts__content {
+        max-width: 500px;
     }
 }
 
@@ -662,6 +691,10 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
     .clients__content {
         max-width: 768px;
+    }
+
+    .clients__images {
+        gap: 50px 100px;
     }
 }
 
@@ -907,7 +940,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         padding-bottom: 30px;
     }
 
-    .blackbox__content button {
+    .blackbox__content button, .contacts__content button {
         padding: 9px 10px 13px 42px;
         min-width: 152px;
         font-size: 16px;
@@ -979,6 +1012,35 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         font-size: 14px;
     }
 
+    .contacts__content {
+        max-width: 571px;
+    }
+
+    .contacts__content h2 {
+        padding-top: 113px;
+        font-size: 40px;
+    }
+
+    .contacts__content p {
+        padding-top: 15px;
+        font-size: 24px;
+    }
+
+    .contacts__content button {
+        min-width: 160px;
+        margin-top: 22px;
+        margin-bottom: 108px;
+    }
+
+    .contacts__content button:hover {
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-name: headShake;
+        animation-name: headShake;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+    }
+
 }
 
 @keyframes scaling {
@@ -987,5 +1049,37 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     }
     100% {
         transform: scale(1.2);
+    }
+}
+
+@keyframes headShake {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    6.5% {
+        -webkit-transform: translateX(-6px) rotateY(-9deg);
+        transform: translateX(-6px) rotateY(-9deg);
+    }
+
+    18.5% {
+        -webkit-transform: translateX(5px) rotateY(7deg);
+        transform: translateX(5px) rotateY(7deg);
+    }
+
+    31.5% {
+        -webkit-transform: translateX(-3px) rotateY(-5deg);
+        transform: translateX(-3px) rotateY(-5deg);
+    }
+
+    43.5% {
+        -webkit-transform: translateX(2px) rotateY(3deg);
+        transform: translateX(2px) rotateY(3deg);
+    }
+
+    50% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
 }
