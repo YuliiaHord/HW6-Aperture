@@ -304,7 +304,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     font-size: 11px;
 }
 
-.card__content button {
+.card__content button, .blackbox__content button {
     display: block;
     width: 117px;
     margin: 10px 0;
@@ -379,6 +379,61 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
 .pre-cage__item span {
     margin-left: 3px;
+}
+
+/*gear cage section*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.blackbox {
+    width: 100vw;
+}
+
+.blackbox__content {
+    margin: 15% 10%;
+}
+
+.blackbox__content h3 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+
+.blackbox__content h2 {
+    font-size: 24px;
+    color: var(--white);
+    line-height: 32px;
+    padding-bottom: 6px;
+}
+
+.blackbox__content p {
+    font-size: 12px;
+    color: var(--white);
+    padding-bottom: 20px;
+}
+
+.blackbox__content button {
+    line-height: 1.7;
+}
+
+.photo-content {
+    width: 100vw;
+    background-image: url(../images/gearcage-s.jpg);
+    background-size: cover;
+}
+
+.photo-content__list {
+    display: flex;
+    list-style-type: none;
+    padding: 50px 20px 25px 0;
+    justify-content: flex-end;
+    font-size: 11px;
+    color: var(--white);
+    gap: 10px;
+    margin-top: 50%;
 }
 
 @media screden and (min-width: 576px) {
@@ -516,6 +571,22 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         font-size: 12px;
         margin-right: 10%;
         gap: 14px;
+    }
+
+    .wrapper {
+        flex-direction: row;
+    }
+
+    .blackbox {
+        width: 50vw;
+    }
+
+    .photo-content {
+        width: 50vw;
+    }
+
+    .photo-content__list {
+        margin-top: 70%;
     }
 }
 
@@ -692,7 +763,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         position: relative;
     }
 
-    .card__content button:before {
+    .card__content button:before, .blackbox__content button:before {
         content: "";
         box-shadow: 0 0 5px 3px var(--gloomy-white);
         border-radius: 14px;
@@ -702,10 +773,10 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         top: 0;
         height: 100%;
         opacity: 0;
-        transition: 0.6s linear;
+        transition: transform 0.6s linear;
     }
 
-    .card__content button:hover:before {
+    .card__content button:hover:before, .blackbox__content button:hover:before {
         transform: rotateY(180deg);
         width: 100%;
         color: var(--white);
@@ -713,7 +784,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         cursor: pointer;
     }
 
-    .card__content button:hover {
+    .card__content button:hover, .blackbox__content button:hover {
         transform: scale(1.05);
         transition: all 0.5s;
     }
@@ -745,6 +816,40 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         padding: 0 0 45px 0;
         margin-right: 40px;
         gap: 15px;
+    }
+
+    .blackbox__content {
+        margin: 173px 0 6px 100px;
+        font-size: 14px;
+    }
+
+    .blackbox__content h2 {
+        font-size: 28px;
+    }
+
+    .blackbox__content p {
+        max-width: 514px;
+        padding-bottom: 30px;
+    }
+
+    .blackbox__content button {
+        padding: 9px 10px 13px 42px;
+        min-width: 152px;
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 153px;
+    }
+
+    .photo-content {
+        background-image: url(../images/gearcage-l.jpg);
+    }
+
+    .photo-content__list {
+        font-size: 12px;
+        color: var(--white);
+        gap: 16px;
+        margin-top: 483px;
+        padding: 0 40px 45px 0;
     }
 }
 
